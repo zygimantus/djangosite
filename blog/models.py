@@ -6,5 +6,7 @@ class BlogPost(models.Model):
     body = models.TextField()
     timestamp = models.DateTimeField()
 
+class BlogPostAdmin(admin.ModelAdmin):
+    last_display = ('title', 'timestamp')
 
-admin.site.register(BlogPost)
+admin.site.register(BlogPost, BlogPostAdmin)
