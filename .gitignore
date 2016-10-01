@@ -1,3 +1,5 @@
+db.sqlite3
+
 #### joe made this: http://goel.io/joe
 
 #####=== Python ===#####
@@ -60,4 +62,3 @@ docs/_build/
 
 # PyBuilder
 target/
-
